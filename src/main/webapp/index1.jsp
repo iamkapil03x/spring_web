@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>MY First Spring web</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h1>This is Spring MVC</h1>
-<p>Welcome to the Spring MVC with Kapil Yadva</p>
+<h1>Hello </h1>
 </body>
 </html>

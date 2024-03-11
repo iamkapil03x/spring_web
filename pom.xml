@@ -19,4 +19,45 @@
       </plugin>
     </plugins>
   </build>
+   <properties>
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<maven.compiler.source>1.8</maven.compiler.source>
+<maven.compiler.target>1.8</maven.compiler.target>
+<spring.version>5.2.16.RELEASE</spring.version>
+</properties>
+  <dependencies>
+	  
+	  <dependency>
+<groupId>org.springframework</groupId>
+<artifactId>spring-webmvc</artifactId>
+<version>${spring.version}</version>
+</dependency>
+<dependency>
+	
+<groupId>javax</groupId>
+<artifactId>javaee-web-api</artifactId>
+<version>6.0</version>
+<scope>provided</scope>
+</dependency>
+
+<dependency>
+<groupId>mysql</groupId>
+<artifactId>mysql-connector-java</artifactId>
+<version>8.0.27</version>
+</dependency>
+<dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.20</version>
+      <scope>provided</scope>
+    </dependency>
+
+  	<dependency>
+  		<groupId>com.spring</groupId>
+  		<artifactId>Springcore</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  
+  
 </project>
